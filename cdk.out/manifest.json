@@ -1,0 +1,914 @@
+{
+  "version": "20.0.0",
+  "artifacts": {
+    "Tree": {
+      "type": "cdk:tree",
+      "properties": {
+        "file": "tree.json"
+      }
+    },
+    "AwsIaCExampleStack": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "AwsIaCExampleStack.template.json",
+        "validateOnSynth": false
+      },
+      "metadata": {
+        "/AwsIaCExampleStack": [
+          {
+            "type": "aws:cdk:asset",
+            "data": {
+              "path": "asset.91403d90d253264d18765aa815a02116820b29b45df9faac72be7afe4a90294f",
+              "id": "91403d90d253264d18765aa815a02116820b29b45df9faac72be7afe4a90294f",
+              "packaging": "zip",
+              "sourceHash": "91403d90d253264d18765aa815a02116820b29b45df9faac72be7afe4a90294f",
+              "s3BucketParameter": "AssetParameters91403d90d253264d18765aa815a02116820b29b45df9faac72be7afe4a90294fS3BucketF222C091",
+              "s3KeyParameter": "AssetParameters91403d90d253264d18765aa815a02116820b29b45df9faac72be7afe4a90294fS3VersionKey840B8215",
+              "artifactHashParameter": "AssetParameters91403d90d253264d18765aa815a02116820b29b45df9faac72be7afe4a90294fArtifactHash6A873FD8"
+            },
+            "trace": [
+              "ConstructNode.addMetadata (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\core\\lib\\construct-compat.js:416:62)",
+              "LegacyStackSynthesizer.doAddFileAsset (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:203:29)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:98:25)",
+              "Stack.addFileAsset (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\core\\lib\\stack.js:475:33)",
+              "C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:103:59",
+              "withoutDeprecationWarnings (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:230:16)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:103:20)",
+              "new Asset (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-s3-assets\\lib\\asset.js:47:44)",
+              "AssetCode.bind (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-lambda\\lib\\code.js:278:26)",
+              "new Function (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.js:116:33)",
+              "C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8420:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8848:24)",
+              "Kernel._create (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8420:34)",
+              "Kernel.create (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8161:29)",
+              "KernelHost.processRequest (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9769:36)",
+              "KernelHost.run (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9732:22)",
+              "Immediate._onImmediate (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9733:46)",
+              "processImmediate (node:internal/timers:466:21)"
+            ]
+          },
+          {
+            "type": "aws:cdk:asset",
+            "data": {
+              "path": "asset.a1dd1224939f4dac95d3d47d8a660eb2398c5561317e583ddcb5e696aa59d71a",
+              "id": "a1dd1224939f4dac95d3d47d8a660eb2398c5561317e583ddcb5e696aa59d71a",
+              "packaging": "zip",
+              "sourceHash": "a1dd1224939f4dac95d3d47d8a660eb2398c5561317e583ddcb5e696aa59d71a",
+              "s3BucketParameter": "AssetParametersa1dd1224939f4dac95d3d47d8a660eb2398c5561317e583ddcb5e696aa59d71aS3Bucket2C975590",
+              "s3KeyParameter": "AssetParametersa1dd1224939f4dac95d3d47d8a660eb2398c5561317e583ddcb5e696aa59d71aS3VersionKey2BD0A8C4",
+              "artifactHashParameter": "AssetParametersa1dd1224939f4dac95d3d47d8a660eb2398c5561317e583ddcb5e696aa59d71aArtifactHash63F68433"
+            },
+            "trace": [
+              "ConstructNode.addMetadata (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\core\\lib\\construct-compat.js:416:62)",
+              "LegacyStackSynthesizer.doAddFileAsset (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:203:29)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:98:25)",
+              "Stack.addFileAsset (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\core\\lib\\stack.js:475:33)",
+              "C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:103:59",
+              "withoutDeprecationWarnings (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:230:16)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:103:20)",
+              "new Asset (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-s3-assets\\lib\\asset.js:47:44)",
+              "AssetCode.bind (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-lambda\\lib\\code.js:278:26)",
+              "new Function (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.js:116:33)",
+              "C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8420:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8848:24)",
+              "Kernel._create (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8420:34)",
+              "Kernel.create (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8161:29)",
+              "KernelHost.processRequest (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9769:36)",
+              "KernelHost.run (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9732:22)",
+              "Immediate._onImmediate (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9733:46)",
+              "processImmediate (node:internal/timers:466:21)"
+            ]
+          }
+        ],
+        "/AwsIaCExampleStack/fooLambda/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "fooLambdaServiceRoleA9D70DA8",
+            "trace": [
+              "new Role (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.js:64:22)",
+              "new Function (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.js:98:35)",
+              "C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8420:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8848:24)",
+              "Kernel._create (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8420:34)",
+              "Kernel.create (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8161:29)",
+              "KernelHost.processRequest (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9769:36)",
+              "KernelHost.run (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9732:22)",
+              "Immediate._onImmediate (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9733:46)",
+              "processImmediate (node:internal/timers:466:21)"
+            ]
+          }
+        ],
+        "/AwsIaCExampleStack/fooLambda/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "fooLambda489897A4",
+            "trace": [
+              "new Function (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.js:174:26)",
+              "C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8420:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8848:24)",
+              "Kernel._create (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8420:34)",
+              "Kernel.create (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8161:29)",
+              "KernelHost.processRequest (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9769:36)",
+              "KernelHost.run (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9732:22)",
+              "Immediate._onImmediate (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9733:46)",
+              "processImmediate (node:internal/timers:466:21)"
+            ]
+          }
+        ],
+        "/AwsIaCExampleStack/AssetParameters/91403d90d253264d18765aa815a02116820b29b45df9faac72be7afe4a90294f/S3Bucket": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters91403d90d253264d18765aa815a02116820b29b45df9faac72be7afe4a90294fS3BucketF222C091",
+            "trace": [
+              "new FileAssetParameters (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\core\\lib\\private\\asset-parameters.js:12:36)",
+              "LegacyStackSynthesizer.doAddFileAsset (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:190:22)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:98:25)",
+              "Stack.addFileAsset (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\core\\lib\\stack.js:475:33)",
+              "C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:103:59",
+              "withoutDeprecationWarnings (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:230:16)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:103:20)",
+              "new Asset (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-s3-assets\\lib\\asset.js:47:44)",
+              "AssetCode.bind (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-lambda\\lib\\code.js:278:26)",
+              "new Function (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.js:116:33)",
+              "C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8420:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8848:24)",
+              "Kernel._create (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8420:34)",
+              "Kernel.create (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8161:29)",
+              "KernelHost.processRequest (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9769:36)",
+              "KernelHost.run (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9732:22)",
+              "Immediate._onImmediate (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9733:46)",
+              "processImmediate (node:internal/timers:466:21)"
+            ]
+          }
+        ],
+        "/AwsIaCExampleStack/AssetParameters/91403d90d253264d18765aa815a02116820b29b45df9faac72be7afe4a90294f/S3VersionKey": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters91403d90d253264d18765aa815a02116820b29b45df9faac72be7afe4a90294fS3VersionKey840B8215",
+            "trace": [
+              "new FileAssetParameters (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\core\\lib\\private\\asset-parameters.js:16:35)",
+              "LegacyStackSynthesizer.doAddFileAsset (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:190:22)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:98:25)",
+              "Stack.addFileAsset (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\core\\lib\\stack.js:475:33)",
+              "C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:103:59",
+              "withoutDeprecationWarnings (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:230:16)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:103:20)",
+              "new Asset (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-s3-assets\\lib\\asset.js:47:44)",
+              "AssetCode.bind (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-lambda\\lib\\code.js:278:26)",
+              "new Function (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.js:116:33)",
+              "C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8420:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8848:24)",
+              "Kernel._create (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8420:34)",
+              "Kernel.create (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8161:29)",
+              "KernelHost.processRequest (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9769:36)",
+              "KernelHost.run (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9732:22)",
+              "Immediate._onImmediate (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9733:46)",
+              "processImmediate (node:internal/timers:466:21)"
+            ]
+          }
+        ],
+        "/AwsIaCExampleStack/AssetParameters/91403d90d253264d18765aa815a02116820b29b45df9faac72be7afe4a90294f/ArtifactHash": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters91403d90d253264d18765aa815a02116820b29b45df9faac72be7afe4a90294fArtifactHash6A873FD8",
+            "trace": [
+              "new FileAssetParameters (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\core\\lib\\private\\asset-parameters.js:20:38)",
+              "LegacyStackSynthesizer.doAddFileAsset (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:190:22)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:98:25)",
+              "Stack.addFileAsset (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\core\\lib\\stack.js:475:33)",
+              "C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:103:59",
+              "withoutDeprecationWarnings (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:230:16)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:103:20)",
+              "new Asset (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-s3-assets\\lib\\asset.js:47:44)",
+              "AssetCode.bind (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-lambda\\lib\\code.js:278:26)",
+              "new Function (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.js:116:33)",
+              "C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8420:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8848:24)",
+              "Kernel._create (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8420:34)",
+              "Kernel.create (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8161:29)",
+              "KernelHost.processRequest (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9769:36)",
+              "KernelHost.run (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9732:22)",
+              "Immediate._onImmediate (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9733:46)",
+              "processImmediate (node:internal/timers:466:21)"
+            ]
+          }
+        ],
+        "/AwsIaCExampleStack/AssetParameters/a1dd1224939f4dac95d3d47d8a660eb2398c5561317e583ddcb5e696aa59d71a/S3Bucket": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParametersa1dd1224939f4dac95d3d47d8a660eb2398c5561317e583ddcb5e696aa59d71aS3Bucket2C975590",
+            "trace": [
+              "new FileAssetParameters (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\core\\lib\\private\\asset-parameters.js:12:36)",
+              "LegacyStackSynthesizer.doAddFileAsset (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:190:22)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:98:25)",
+              "Stack.addFileAsset (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\core\\lib\\stack.js:475:33)",
+              "C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:103:59",
+              "withoutDeprecationWarnings (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:230:16)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:103:20)",
+              "new Asset (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-s3-assets\\lib\\asset.js:47:44)",
+              "AssetCode.bind (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-lambda\\lib\\code.js:278:26)",
+              "new Function (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.js:116:33)",
+              "C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8420:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8848:24)",
+              "Kernel._create (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8420:34)",
+              "Kernel.create (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8161:29)",
+              "KernelHost.processRequest (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9769:36)",
+              "KernelHost.run (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9732:22)",
+              "Immediate._onImmediate (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9733:46)",
+              "processImmediate (node:internal/timers:466:21)"
+            ]
+          }
+        ],
+        "/AwsIaCExampleStack/AssetParameters/a1dd1224939f4dac95d3d47d8a660eb2398c5561317e583ddcb5e696aa59d71a/S3VersionKey": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParametersa1dd1224939f4dac95d3d47d8a660eb2398c5561317e583ddcb5e696aa59d71aS3VersionKey2BD0A8C4",
+            "trace": [
+              "new FileAssetParameters (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\core\\lib\\private\\asset-parameters.js:16:35)",
+              "LegacyStackSynthesizer.doAddFileAsset (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:190:22)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:98:25)",
+              "Stack.addFileAsset (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\core\\lib\\stack.js:475:33)",
+              "C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:103:59",
+              "withoutDeprecationWarnings (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:230:16)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:103:20)",
+              "new Asset (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-s3-assets\\lib\\asset.js:47:44)",
+              "AssetCode.bind (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-lambda\\lib\\code.js:278:26)",
+              "new Function (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.js:116:33)",
+              "C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8420:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8848:24)",
+              "Kernel._create (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8420:34)",
+              "Kernel.create (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8161:29)",
+              "KernelHost.processRequest (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9769:36)",
+              "KernelHost.run (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9732:22)",
+              "Immediate._onImmediate (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9733:46)",
+              "processImmediate (node:internal/timers:466:21)"
+            ]
+          }
+        ],
+        "/AwsIaCExampleStack/AssetParameters/a1dd1224939f4dac95d3d47d8a660eb2398c5561317e583ddcb5e696aa59d71a/ArtifactHash": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParametersa1dd1224939f4dac95d3d47d8a660eb2398c5561317e583ddcb5e696aa59d71aArtifactHash63F68433",
+            "trace": [
+              "new FileAssetParameters (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\core\\lib\\private\\asset-parameters.js:20:38)",
+              "LegacyStackSynthesizer.doAddFileAsset (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:190:22)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:98:25)",
+              "Stack.addFileAsset (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\core\\lib\\stack.js:475:33)",
+              "C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:103:59",
+              "withoutDeprecationWarnings (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:230:16)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:103:20)",
+              "new Asset (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-s3-assets\\lib\\asset.js:47:44)",
+              "AssetCode.bind (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-lambda\\lib\\code.js:278:26)",
+              "new Function (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.js:116:33)",
+              "C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8420:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8848:24)",
+              "Kernel._create (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8420:34)",
+              "Kernel.create (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8161:29)",
+              "KernelHost.processRequest (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9769:36)",
+              "KernelHost.run (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9732:22)",
+              "Immediate._onImmediate (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9733:46)",
+              "processImmediate (node:internal/timers:466:21)"
+            ]
+          }
+        ],
+        "/AwsIaCExampleStack/fooApiEndpoint/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "fooApiEndpoint8869F72F",
+            "trace": [
+              "new RestApi (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.js:451:26)",
+              "new LambdaRestApi (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.js:30:9)",
+              "C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8420:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8848:24)",
+              "Kernel._create (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8420:34)",
+              "Kernel.create (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8161:29)",
+              "KernelHost.processRequest (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9769:36)",
+              "KernelHost.run (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9732:22)",
+              "Immediate._onImmediate (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9733:46)",
+              "processImmediate (node:internal/timers:466:21)"
+            ]
+          }
+        ],
+        "/AwsIaCExampleStack/fooApiEndpoint/CloudWatchRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "fooApiEndpointCloudWatchRoleE8C83D9B",
+            "trace": [
+              "new Role (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.js:64:22)",
+              "LambdaRestApi._configureCloudWatchRole (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.js:271:22)",
+              "new RestApi (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.js:468:18)",
+              "new LambdaRestApi (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.js:30:9)",
+              "C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8420:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8848:24)",
+              "Kernel._create (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8420:34)",
+              "Kernel.create (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8161:29)",
+              "KernelHost.processRequest (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9769:36)",
+              "KernelHost.run (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9732:22)",
+              "Immediate._onImmediate (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9733:46)",
+              "processImmediate (node:internal/timers:466:21)"
+            ]
+          }
+        ],
+        "/AwsIaCExampleStack/fooApiEndpoint/Account": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "fooApiEndpointAccountF73AE208",
+            "trace": [
+              "LambdaRestApi._configureCloudWatchRole (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.js:275:34)",
+              "new RestApi (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.js:468:18)",
+              "new LambdaRestApi (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.js:30:9)",
+              "C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8420:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8848:24)",
+              "Kernel._create (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8420:34)",
+              "Kernel.create (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8161:29)",
+              "KernelHost.processRequest (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9769:36)",
+              "KernelHost.run (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9732:22)",
+              "Immediate._onImmediate (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9733:46)",
+              "processImmediate (node:internal/timers:466:21)"
+            ]
+          }
+        ],
+        "/AwsIaCExampleStack/fooApiEndpoint/Deployment/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "fooApiEndpointDeploymentBC5F2362abe510119c5366e28a3e2869db1966d2",
+            "trace": [
+              "new Deployment (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\deployment.js:53:25)",
+              "LambdaRestApi._configureDeployment (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.js:319:38)",
+              "new RestApi (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.js:470:14)",
+              "new LambdaRestApi (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.js:30:9)",
+              "C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8420:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8848:24)",
+              "Kernel._create (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8420:34)",
+              "Kernel.create (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8161:29)",
+              "KernelHost.processRequest (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9769:36)",
+              "KernelHost.run (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9732:22)",
+              "Immediate._onImmediate (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9733:46)",
+              "processImmediate (node:internal/timers:466:21)"
+            ]
+          }
+        ],
+        "/AwsIaCExampleStack/fooApiEndpoint/DeploymentStage.prod/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "fooApiEndpointDeploymentStageprod80B61FCE",
+            "trace": [
+              "new Stage (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\stage.js:63:26)",
+              "LambdaRestApi._configureDeployment (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.js:327:36)",
+              "new RestApi (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.js:470:14)",
+              "new LambdaRestApi (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.js:30:9)",
+              "C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8420:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8848:24)",
+              "Kernel._create (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8420:34)",
+              "Kernel.create (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8161:29)",
+              "KernelHost.processRequest (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9769:36)",
+              "KernelHost.run (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9732:22)",
+              "Immediate._onImmediate (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9733:46)",
+              "processImmediate (node:internal/timers:466:21)"
+            ]
+          }
+        ],
+        "/AwsIaCExampleStack/fooApiEndpoint/Endpoint": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "fooApiEndpointA2FD03FA",
+            "trace": [
+              "LambdaRestApi._configureDeployment (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.js:331:13)",
+              "new RestApi (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.js:470:14)",
+              "new LambdaRestApi (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.js:30:9)",
+              "C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8420:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8848:24)",
+              "Kernel._create (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8420:34)",
+              "Kernel.create (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8161:29)",
+              "KernelHost.processRequest (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9769:36)",
+              "KernelHost.run (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9732:22)",
+              "Immediate._onImmediate (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9733:46)",
+              "processImmediate (node:internal/timers:466:21)"
+            ]
+          }
+        ],
+        "/AwsIaCExampleStack/fooApiEndpoint/Default/{proxy+}/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "fooApiEndpointproxyFADB50AA",
+            "trace": [
+              "new Resource (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:235:26)",
+              "new ProxyResource (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:323:9)",
+              "RootResource.addProxy (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:52:16)",
+              "new LambdaRestApi (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.js:36:23)",
+              "C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8420:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8848:24)",
+              "Kernel._create (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8420:34)",
+              "Kernel.create (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8161:29)",
+              "KernelHost.processRequest (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9769:36)",
+              "KernelHost.run (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9732:22)",
+              "Immediate._onImmediate (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9733:46)",
+              "processImmediate (node:internal/timers:466:21)"
+            ]
+          }
+        ],
+        "/AwsIaCExampleStack/fooApiEndpoint/Default/{proxy+}/ANY/ApiPermission.AwsIaCExampleStackfooApiEndpoint8A6754A0.ANY..{proxy+}": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "fooApiEndpointproxyANYApiPermissionAwsIaCExampleStackfooApiEndpoint8A6754A0ANYproxyDC11607C",
+            "trace": [
+              "Function.addPermission (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function-base.js:85:9)",
+              "LambdaIntegration.bind (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\integrations\\lambda.js:56:22)",
+              "new Method (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.js:46:40)",
+              "ProxyResource.addMethod (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:40:16)",
+              "ProxyResource.addMethod (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:362:22)",
+              "new ProxyResource (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:340:35)",
+              "RootResource.addProxy (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:52:16)",
+              "new LambdaRestApi (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.js:36:23)",
+              "C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8420:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8848:24)",
+              "Kernel._create (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8420:34)",
+              "Kernel.create (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8161:29)",
+              "KernelHost.processRequest (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9769:36)",
+              "KernelHost.run (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9732:22)",
+              "Immediate._onImmediate (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9733:46)",
+              "processImmediate (node:internal/timers:466:21)"
+            ]
+          }
+        ],
+        "/AwsIaCExampleStack/fooApiEndpoint/Default/{proxy+}/ANY/ApiPermission.Test.AwsIaCExampleStackfooApiEndpoint8A6754A0.ANY..{proxy+}": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "fooApiEndpointproxyANYApiPermissionTestAwsIaCExampleStackfooApiEndpoint8A6754A0ANYproxyD51CB3FE",
+            "trace": [
+              "Function.addPermission (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function-base.js:85:9)",
+              "LambdaIntegration.bind (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\integrations\\lambda.js:63:26)",
+              "new Method (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.js:46:40)",
+              "ProxyResource.addMethod (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:40:16)",
+              "ProxyResource.addMethod (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:362:22)",
+              "new ProxyResource (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:340:35)",
+              "RootResource.addProxy (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:52:16)",
+              "new LambdaRestApi (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.js:36:23)",
+              "C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8420:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8848:24)",
+              "Kernel._create (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8420:34)",
+              "Kernel.create (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8161:29)",
+              "KernelHost.processRequest (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9769:36)",
+              "KernelHost.run (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9732:22)",
+              "Immediate._onImmediate (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9733:46)",
+              "processImmediate (node:internal/timers:466:21)"
+            ]
+          }
+        ],
+        "/AwsIaCExampleStack/fooApiEndpoint/Default/{proxy+}/ANY/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "fooApiEndpointproxyANYECCBFB06",
+            "trace": [
+              "new Method (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.js:62:26)",
+              "ProxyResource.addMethod (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:40:16)",
+              "ProxyResource.addMethod (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:362:22)",
+              "new ProxyResource (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:340:35)",
+              "RootResource.addProxy (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:52:16)",
+              "new LambdaRestApi (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.js:36:23)",
+              "C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8420:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8848:24)",
+              "Kernel._create (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8420:34)",
+              "Kernel.create (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8161:29)",
+              "KernelHost.processRequest (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9769:36)",
+              "KernelHost.run (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9732:22)",
+              "Immediate._onImmediate (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9733:46)",
+              "processImmediate (node:internal/timers:466:21)"
+            ]
+          }
+        ],
+        "/AwsIaCExampleStack/fooApiEndpoint/Default/ANY/ApiPermission.AwsIaCExampleStackfooApiEndpoint8A6754A0.ANY..": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "fooApiEndpointANYApiPermissionAwsIaCExampleStackfooApiEndpoint8A6754A0ANY00AE8660",
+            "trace": [
+              "Function.addPermission (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function-base.js:85:9)",
+              "LambdaIntegration.bind (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\integrations\\lambda.js:56:22)",
+              "new Method (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.js:46:40)",
+              "RootResource.addMethod (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:40:16)",
+              "ProxyResource.addMethod (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:359:37)",
+              "new ProxyResource (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:340:35)",
+              "RootResource.addProxy (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:52:16)",
+              "new LambdaRestApi (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.js:36:23)",
+              "C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8420:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8848:24)",
+              "Kernel._create (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8420:34)",
+              "Kernel.create (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8161:29)",
+              "KernelHost.processRequest (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9769:36)",
+              "KernelHost.run (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9732:22)",
+              "Immediate._onImmediate (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9733:46)",
+              "processImmediate (node:internal/timers:466:21)"
+            ]
+          }
+        ],
+        "/AwsIaCExampleStack/fooApiEndpoint/Default/ANY/ApiPermission.Test.AwsIaCExampleStackfooApiEndpoint8A6754A0.ANY..": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "fooApiEndpointANYApiPermissionTestAwsIaCExampleStackfooApiEndpoint8A6754A0ANY24702435",
+            "trace": [
+              "Function.addPermission (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function-base.js:85:9)",
+              "LambdaIntegration.bind (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\integrations\\lambda.js:63:26)",
+              "new Method (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.js:46:40)",
+              "RootResource.addMethod (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:40:16)",
+              "ProxyResource.addMethod (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:359:37)",
+              "new ProxyResource (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:340:35)",
+              "RootResource.addProxy (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:52:16)",
+              "new LambdaRestApi (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.js:36:23)",
+              "C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8420:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8848:24)",
+              "Kernel._create (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8420:34)",
+              "Kernel.create (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8161:29)",
+              "KernelHost.processRequest (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9769:36)",
+              "KernelHost.run (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9732:22)",
+              "Immediate._onImmediate (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9733:46)",
+              "processImmediate (node:internal/timers:466:21)"
+            ]
+          }
+        ],
+        "/AwsIaCExampleStack/fooApiEndpoint/Default/ANY/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "fooApiEndpointANY9AAC84B5",
+            "trace": [
+              "new Method (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.js:62:26)",
+              "RootResource.addMethod (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:40:16)",
+              "ProxyResource.addMethod (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:359:37)",
+              "new ProxyResource (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:340:35)",
+              "RootResource.addProxy (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:52:16)",
+              "new LambdaRestApi (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.js:36:23)",
+              "C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8420:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8848:24)",
+              "Kernel._create (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8420:34)",
+              "Kernel.create (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8161:29)",
+              "KernelHost.processRequest (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9769:36)",
+              "KernelHost.run (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9732:22)",
+              "Immediate._onImmediate (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9733:46)",
+              "processImmediate (node:internal/timers:466:21)"
+            ]
+          }
+        ],
+        "/AwsIaCExampleStack/barLambda/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "barLambdaServiceRole4B371E7E",
+            "trace": [
+              "new Role (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.js:64:22)",
+              "new Function (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.js:98:35)",
+              "C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8420:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8848:24)",
+              "Kernel._create (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8420:34)",
+              "Kernel.create (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8161:29)",
+              "KernelHost.processRequest (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9769:36)",
+              "KernelHost.run (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9732:22)",
+              "Immediate._onImmediate (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9733:46)",
+              "processImmediate (node:internal/timers:466:21)"
+            ]
+          }
+        ],
+        "/AwsIaCExampleStack/barLambda/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "barLambda170FC988",
+            "trace": [
+              "new Function (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.js:174:26)",
+              "C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8420:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8848:24)",
+              "Kernel._create (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8420:34)",
+              "Kernel.create (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8161:29)",
+              "KernelHost.processRequest (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9769:36)",
+              "KernelHost.run (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9732:22)",
+              "Immediate._onImmediate (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9733:46)",
+              "processImmediate (node:internal/timers:466:21)"
+            ]
+          }
+        ],
+        "/AwsIaCExampleStack/barApiEndpoint/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "barApiEndpoint304BC6F4",
+            "trace": [
+              "new RestApi (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.js:451:26)",
+              "new LambdaRestApi (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.js:30:9)",
+              "C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8420:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8848:24)",
+              "Kernel._create (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8420:34)",
+              "Kernel.create (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8161:29)",
+              "KernelHost.processRequest (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9769:36)",
+              "KernelHost.run (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9732:22)",
+              "Immediate._onImmediate (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9733:46)",
+              "processImmediate (node:internal/timers:466:21)"
+            ]
+          }
+        ],
+        "/AwsIaCExampleStack/barApiEndpoint/CloudWatchRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "barApiEndpointCloudWatchRoleDDF88139",
+            "trace": [
+              "new Role (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.js:64:22)",
+              "LambdaRestApi._configureCloudWatchRole (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.js:271:22)",
+              "new RestApi (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.js:468:18)",
+              "new LambdaRestApi (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.js:30:9)",
+              "C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8420:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8848:24)",
+              "Kernel._create (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8420:34)",
+              "Kernel.create (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8161:29)",
+              "KernelHost.processRequest (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9769:36)",
+              "KernelHost.run (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9732:22)",
+              "Immediate._onImmediate (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9733:46)",
+              "processImmediate (node:internal/timers:466:21)"
+            ]
+          }
+        ],
+        "/AwsIaCExampleStack/barApiEndpoint/Account": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "barApiEndpointAccount602763B4",
+            "trace": [
+              "LambdaRestApi._configureCloudWatchRole (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.js:275:34)",
+              "new RestApi (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.js:468:18)",
+              "new LambdaRestApi (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.js:30:9)",
+              "C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8420:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8848:24)",
+              "Kernel._create (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8420:34)",
+              "Kernel.create (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8161:29)",
+              "KernelHost.processRequest (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9769:36)",
+              "KernelHost.run (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9732:22)",
+              "Immediate._onImmediate (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9733:46)",
+              "processImmediate (node:internal/timers:466:21)"
+            ]
+          }
+        ],
+        "/AwsIaCExampleStack/barApiEndpoint/Deployment/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "barApiEndpointDeploymentA66008CF0d137e7abec23dd92cf6120fe70e34ef",
+            "trace": [
+              "new Deployment (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\deployment.js:53:25)",
+              "LambdaRestApi._configureDeployment (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.js:319:38)",
+              "new RestApi (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.js:470:14)",
+              "new LambdaRestApi (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.js:30:9)",
+              "C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8420:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8848:24)",
+              "Kernel._create (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8420:34)",
+              "Kernel.create (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8161:29)",
+              "KernelHost.processRequest (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9769:36)",
+              "KernelHost.run (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9732:22)",
+              "Immediate._onImmediate (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9733:46)",
+              "processImmediate (node:internal/timers:466:21)"
+            ]
+          }
+        ],
+        "/AwsIaCExampleStack/barApiEndpoint/DeploymentStage.prod/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "barApiEndpointDeploymentStageprodCED48AEE",
+            "trace": [
+              "new Stage (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\stage.js:63:26)",
+              "LambdaRestApi._configureDeployment (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.js:327:36)",
+              "new RestApi (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.js:470:14)",
+              "new LambdaRestApi (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.js:30:9)",
+              "C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8420:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8848:24)",
+              "Kernel._create (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8420:34)",
+              "Kernel.create (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8161:29)",
+              "KernelHost.processRequest (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9769:36)",
+              "KernelHost.run (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9732:22)",
+              "Immediate._onImmediate (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9733:46)",
+              "processImmediate (node:internal/timers:466:21)"
+            ]
+          }
+        ],
+        "/AwsIaCExampleStack/barApiEndpoint/Endpoint": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "barApiEndpoint0F7F76F8",
+            "trace": [
+              "LambdaRestApi._configureDeployment (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.js:331:13)",
+              "new RestApi (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.js:470:14)",
+              "new LambdaRestApi (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.js:30:9)",
+              "C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8420:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8848:24)",
+              "Kernel._create (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8420:34)",
+              "Kernel.create (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8161:29)",
+              "KernelHost.processRequest (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9769:36)",
+              "KernelHost.run (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9732:22)",
+              "Immediate._onImmediate (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9733:46)",
+              "processImmediate (node:internal/timers:466:21)"
+            ]
+          }
+        ],
+        "/AwsIaCExampleStack/barApiEndpoint/Default/{proxy+}/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "barApiEndpointproxy78F0A52D",
+            "trace": [
+              "new Resource (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:235:26)",
+              "new ProxyResource (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:323:9)",
+              "RootResource.addProxy (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:52:16)",
+              "new LambdaRestApi (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.js:36:23)",
+              "C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8420:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8848:24)",
+              "Kernel._create (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8420:34)",
+              "Kernel.create (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8161:29)",
+              "KernelHost.processRequest (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9769:36)",
+              "KernelHost.run (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9732:22)",
+              "Immediate._onImmediate (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9733:46)",
+              "processImmediate (node:internal/timers:466:21)"
+            ]
+          }
+        ],
+        "/AwsIaCExampleStack/barApiEndpoint/Default/{proxy+}/ANY/ApiPermission.AwsIaCExampleStackbarApiEndpoint6C020417.ANY..{proxy+}": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "barApiEndpointproxyANYApiPermissionAwsIaCExampleStackbarApiEndpoint6C020417ANYproxy5F138B1C",
+            "trace": [
+              "Function.addPermission (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function-base.js:85:9)",
+              "LambdaIntegration.bind (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\integrations\\lambda.js:56:22)",
+              "new Method (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.js:46:40)",
+              "ProxyResource.addMethod (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:40:16)",
+              "ProxyResource.addMethod (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:362:22)",
+              "new ProxyResource (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:340:35)",
+              "RootResource.addProxy (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:52:16)",
+              "new LambdaRestApi (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.js:36:23)",
+              "C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8420:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8848:24)",
+              "Kernel._create (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8420:34)",
+              "Kernel.create (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8161:29)",
+              "KernelHost.processRequest (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9769:36)",
+              "KernelHost.run (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9732:22)",
+              "Immediate._onImmediate (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9733:46)",
+              "processImmediate (node:internal/timers:466:21)"
+            ]
+          }
+        ],
+        "/AwsIaCExampleStack/barApiEndpoint/Default/{proxy+}/ANY/ApiPermission.Test.AwsIaCExampleStackbarApiEndpoint6C020417.ANY..{proxy+}": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "barApiEndpointproxyANYApiPermissionTestAwsIaCExampleStackbarApiEndpoint6C020417ANYproxy4DB80980",
+            "trace": [
+              "Function.addPermission (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function-base.js:85:9)",
+              "LambdaIntegration.bind (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\integrations\\lambda.js:63:26)",
+              "new Method (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.js:46:40)",
+              "ProxyResource.addMethod (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:40:16)",
+              "ProxyResource.addMethod (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:362:22)",
+              "new ProxyResource (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:340:35)",
+              "RootResource.addProxy (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:52:16)",
+              "new LambdaRestApi (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.js:36:23)",
+              "C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8420:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8848:24)",
+              "Kernel._create (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8420:34)",
+              "Kernel.create (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8161:29)",
+              "KernelHost.processRequest (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9769:36)",
+              "KernelHost.run (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9732:22)",
+              "Immediate._onImmediate (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9733:46)",
+              "processImmediate (node:internal/timers:466:21)"
+            ]
+          }
+        ],
+        "/AwsIaCExampleStack/barApiEndpoint/Default/{proxy+}/ANY/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "barApiEndpointproxyANYB8585BAE",
+            "trace": [
+              "new Method (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.js:62:26)",
+              "ProxyResource.addMethod (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:40:16)",
+              "ProxyResource.addMethod (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:362:22)",
+              "new ProxyResource (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:340:35)",
+              "RootResource.addProxy (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:52:16)",
+              "new LambdaRestApi (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.js:36:23)",
+              "C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8420:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8848:24)",
+              "Kernel._create (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8420:34)",
+              "Kernel.create (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8161:29)",
+              "KernelHost.processRequest (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9769:36)",
+              "KernelHost.run (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9732:22)",
+              "Immediate._onImmediate (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9733:46)",
+              "processImmediate (node:internal/timers:466:21)"
+            ]
+          }
+        ],
+        "/AwsIaCExampleStack/barApiEndpoint/Default/ANY/ApiPermission.AwsIaCExampleStackbarApiEndpoint6C020417.ANY..": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "barApiEndpointANYApiPermissionAwsIaCExampleStackbarApiEndpoint6C020417ANYA27116DF",
+            "trace": [
+              "Function.addPermission (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function-base.js:85:9)",
+              "LambdaIntegration.bind (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\integrations\\lambda.js:56:22)",
+              "new Method (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.js:46:40)",
+              "RootResource.addMethod (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:40:16)",
+              "ProxyResource.addMethod (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:359:37)",
+              "new ProxyResource (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:340:35)",
+              "RootResource.addProxy (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:52:16)",
+              "new LambdaRestApi (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.js:36:23)",
+              "C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8420:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8848:24)",
+              "Kernel._create (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8420:34)",
+              "Kernel.create (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8161:29)",
+              "KernelHost.processRequest (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9769:36)",
+              "KernelHost.run (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9732:22)",
+              "Immediate._onImmediate (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9733:46)",
+              "processImmediate (node:internal/timers:466:21)"
+            ]
+          }
+        ],
+        "/AwsIaCExampleStack/barApiEndpoint/Default/ANY/ApiPermission.Test.AwsIaCExampleStackbarApiEndpoint6C020417.ANY..": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "barApiEndpointANYApiPermissionTestAwsIaCExampleStackbarApiEndpoint6C020417ANY6392508B",
+            "trace": [
+              "Function.addPermission (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function-base.js:85:9)",
+              "LambdaIntegration.bind (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\integrations\\lambda.js:63:26)",
+              "new Method (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.js:46:40)",
+              "RootResource.addMethod (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:40:16)",
+              "ProxyResource.addMethod (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:359:37)",
+              "new ProxyResource (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:340:35)",
+              "RootResource.addProxy (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:52:16)",
+              "new LambdaRestApi (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.js:36:23)",
+              "C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8420:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8848:24)",
+              "Kernel._create (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8420:34)",
+              "Kernel.create (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8161:29)",
+              "KernelHost.processRequest (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9769:36)",
+              "KernelHost.run (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9732:22)",
+              "Immediate._onImmediate (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9733:46)",
+              "processImmediate (node:internal/timers:466:21)"
+            ]
+          }
+        ],
+        "/AwsIaCExampleStack/barApiEndpoint/Default/ANY/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "barApiEndpointANY532915A4",
+            "trace": [
+              "new Method (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.js:62:26)",
+              "RootResource.addMethod (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:40:16)",
+              "ProxyResource.addMethod (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:359:37)",
+              "new ProxyResource (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:340:35)",
+              "RootResource.addProxy (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:52:16)",
+              "new LambdaRestApi (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.js:36:23)",
+              "C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8420:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8848:24)",
+              "Kernel._create (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8420:34)",
+              "Kernel.create (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8161:29)",
+              "KernelHost.processRequest (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9769:36)",
+              "KernelHost.run (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9732:22)",
+              "Immediate._onImmediate (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9733:46)",
+              "processImmediate (node:internal/timers:466:21)"
+            ]
+          }
+        ],
+        "/AwsIaCExampleStack/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata",
+            "trace": [
+              "new MetadataResource (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\core\\lib\\private\\metadata-resource.js:22:30)",
+              "C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:139:9",
+              "visit (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:200:9)",
+              "visit (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:197:9)",
+              "injectMetadataResources (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:128:5)",
+              "Object.synthesize (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:17:5)",
+              "App.synth (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\core\\lib\\stage.js:105:41)",
+              "C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8236:134",
+              "Kernel._wrapSandboxCode (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8848:24)",
+              "C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8236:107",
+              "Kernel._ensureSync (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8829:28)",
+              "Kernel.invoke (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8236:34)",
+              "KernelHost.processRequest (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9769:36)",
+              "KernelHost.run (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9732:22)",
+              "Immediate._onImmediate (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9733:46)",
+              "processImmediate (node:internal/timers:466:21)"
+            ]
+          }
+        ],
+        "/AwsIaCExampleStack/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable",
+            "trace": [
+              "new MetadataResource (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\core\\lib\\private\\metadata-resource.js:30:35)",
+              "C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:139:9",
+              "visit (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:200:9)",
+              "visit (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:197:9)",
+              "injectMetadataResources (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:128:5)",
+              "Object.synthesize (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:17:5)",
+              "App.synth (C:\\Users\\jerem\\AppData\\Local\\Temp\\jsii-kernel-Gyk5n1\\node_modules\\@aws-cdk\\core\\lib\\stage.js:105:41)",
+              "C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8236:134",
+              "Kernel._wrapSandboxCode (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8848:24)",
+              "C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8236:107",
+              "Kernel._ensureSync (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8829:28)",
+              "Kernel.invoke (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:8236:34)",
+              "KernelHost.processRequest (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9769:36)",
+              "KernelHost.run (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9732:22)",
+              "Immediate._onImmediate (C:\\Users\\jerem\\AppData\\Local\\Temp\\dq2ozjqa.3zq\\lib\\program.js:9733:46)",
+              "processImmediate (node:internal/timers:466:21)"
+            ]
+          }
+        ]
+      },
+      "displayName": "AwsIaCExampleStack"
+    }
+  }
+}
